@@ -48,10 +48,10 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  if(typeof c == 'undefined'){
-    return false;
+  if(c === null){
+    return true;
   }
   else
-    return true;
+    return false;
   //end your code
 }

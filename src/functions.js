@@ -45,6 +45,7 @@ bar = function (doubleArray){
 	}
 	else
 		return false;
+}
 //end your code
 
 /**
@@ -81,10 +82,16 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray){
-	hashPart = logArray.split(' ')[0];
-	messagePart = "\"" + logArray.split('"')[1];
-	datePart = logArray.substr(hashPart.length + 1, logArray.length - hashPart.length - messagePart.length - 2);
+	var splitLog = [];
 
-	return GitLog(hashPart, datePart, MessagePart);
+	for(var i = 0; i < logArray.length; i++){
+		var hashPart = logArray[i].substr(0, logArray[i].indexOf(' '));
+		var datePart = new Date(logArray[i].substring(logArray[i].indexOf(' ') + 1, logArray[i].indexOf("\"") - 1));
+		var messagePart = logArray[i].substring(logArray[i].indexOf("\"") + 1, logArray[i].lastIndexOf("\""));
+
+		splitLog[i] = new GitLog(hashPart, datePart, messagePart);
+	}
+
+	return splitLog;
 }
 //end your code
