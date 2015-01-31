@@ -5,5 +5,5 @@ End: Mon, 19 Jan 2015 20:37:00 -0700
 Tasks: 2/3 of functions.js and 2/3 of variables.js. Failed to figure out how to do the parseGit function and the variables.js function. Will attempt how to do that next time.
 
 Start: Sat, 31 Jan 2015 11:14:36 -0700
-End: Sat, 31 Jan 2015 20:37:00 -0700
-Tasks: 
+End: Sat, 31 Jan 2015 16:24:00 -0700
+Tasks: Completed the rest of the three src files and confirmed that all the test assignments work.
