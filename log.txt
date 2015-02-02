@@ -7,3 +7,16 @@ Tasks: 2/3 of functions.js and 2/3 of variables.js. Failed to figure out how to 
 Start: Sat, 31 Jan 2015 11:14:36 -0700
 End: Sat, 31 Jan 2015 16:24:00 -0700
 Tasks: Completed the rest of the three src files and confirmed that all the test assignments work.
+
+#Begin Part 2
+
+Start: Sat, 31 Jan 2015 17:00:00 -0700
+End: Sun, 01 Feb 2015 01:00:00 -0700
+Tasks: Started on project and spent most of the time setting up the html code as well as trying to get the GIST server to connect.
+
+Start: Sun, 01 Jan 2015 08:00:00 -0700
+End: Sun, 01 Jan 2015 22:00:00 -0700
+Tasks: Spent most of the time confused on how to connect the GIST server. Most ALOT of time on figuring out how to parse the data
+from JSON largely with the help from discussion board. Spent the rest of the time trying to display the search results and failing
+to finish the rest of the project due to running out of time.
+
